@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    color: #484848;
+     font-family: "Crimson Text", serif;
+
+}
+.Bio{
+    background-image: url("./IMG-20250715-WA0014.jpg");
+    background-size: cover;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: center;
+    color: #fff;
+
+}
+h1{
+    width: 100%;
+}
+.joy{
+    order: -1;
+}
+strong{
+    font-weight:700 ;
+    text-transform: uppercase;
+}
+
+
+
+img{
+    width: 20%;
+}
+
+.Bio2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width:400px ;
+    /* justify-content: center; */
+
+}
+form{
+    max-width: 350px;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 3px;
+    transition: all 500ms;
+    
+} 
+input:focus{
+    transform: scale(1.1);
+}
+button{
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 5px;
+    transition: all 500ms;
+    color: #fff;
+    background-image: linear-gradient(to  right,rgb(158, 122, 158),lightblue);
+    cursor: pointer;
+    text-transform: uppercase;
+
+
+}
+button:hover{
+     color: black;
+      transform: scale(1.1);
+
+}
+button:focus{
+    transform:scale(1.1) ;
+}
+.file{
+    border: 1px solid;
+}
+h2{
+    margin-bottom: 0;
+}
+h3{
+    margin-top: 0;
+    font-size: small;
+}
+.Bio2 p{
+    margin-top: 0;
+}
+.joy{
+    border-top: 2px solid;
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 5px;
+     border-image:linear-gradient(to  right,blue,lightblue)1;
+}
+@media(min-width:500px){
+    body{
+        display: flex;
+    }
+    .Bio{
+        width: 50%;
+        height: 100vh;
+    }
+     .Bio2{
+        width: 50%;
+        height: 100vh;
+        justify-content: center;
+    }
+    img{
+        width: 20%;
+    }
+
+ 
+}
